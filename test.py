@@ -18,15 +18,15 @@ class gen_v:
             return self.v
         else:
             raise StopIteration
-
+"""
 map_list = [[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
-  [1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1],
+  [1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1],
   [1,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1],
-  [1,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,0,1],
+  [1,0,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,0,0,0,0,0,1,0,1,1],
   [1,1,0,0,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1],
   [1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1],
-  [1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1],
-  [1,1,0,0,1,1,0,0,0,1,1,1,0,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1],
+  [1,1,0,0,1,1,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1],
+  [1,1,0,0,1,1,0,0,0,1,1,1,1,1,0,1,1,1,1,1,1,0,0,0,0,0,0,0,1,1],
   [1,1,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1],
   [1,1,0,0,0,0,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1],
   [1,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1],
@@ -47,7 +47,38 @@ map_list = [[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
   [1,1,0,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1,1,0,1,1],
   [1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,0,0,0,1,1],
   [1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,0,1,1,1,1,1],
-  [1,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1],
+  [1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1],
+  [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]]
+  """
+map_list = [[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+  [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
   [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]]
 
 ### q_tabel map  ###
@@ -63,8 +94,8 @@ I = 30
 C = 30
 
 #시작위치 좌표
-start_i = 19 
-start_c = 17
+start_i = 1 
+start_c = 1 
 
 curr_i = start_i
 curr_c = start_c
@@ -80,7 +111,7 @@ def init_q_table():
         q_table = np.array(list(gen_v(5*I*C,0))).reshape(5, I, C)
         q_table[0, :, :] = map_list
         q_table *= -1 #q 테이블(wall 인 경우 가중치 -1)
-        q_table[0, 28, 27] = 1  #(결승점(좌표 : 28, 28) 가중치 1)
+        q_table[0, 28, 28] = 1  #(결승점(좌표 : 28, 28) 가중치 1)
     else:
         sys.exit()
     finally:
@@ -140,49 +171,61 @@ class select_where:  #selector where
 
     def select_right(self):
         global curr_i, curr_c
-        print(curr_i, curr_c)
-        print('right')
+        # print(curr_i, curr_c)
+        # print('right')
         if q_table[0,curr_i, curr_c+1] == -1:
             screen.blit(stop,[(curr_c+1)*20, curr_i*20])
             q_table[self.w, curr_i, curr_c] += -2
             return True           # 게임 루프 종료 
-        q_table[self.w, curr_i, curr_c] += 0
+        if q_table[0,curr_i, curr_c+1] == 1:
+            q_table[self.w, curr_i, curr_c] += 1
+            return True
+        q_table[self.w, curr_i, curr_c] += np.sign(np.max(list(q_table[1:,curr_i, curr_c+1])))
         curr_c +=1
         f_map[curr_i, curr_c] = 1
         
     def select_down(self):
         global curr_i, curr_c
-        print(curr_i, curr_c)
-        print('down')
+        # print(curr_i, curr_c)
+        # print('down')
         if q_table[0,curr_i+1, curr_c] == -1:
             screen.blit(stop,[(curr_c)*20, (curr_i+1)*20])
             q_table[self.w, curr_i, curr_c] += -2
             return True           # 게임 루프 종료 
-        q_table[self.w, curr_i, curr_c] += 0
+        if q_table[0,curr_i+1, curr_c] == 1:
+            q_table[self.w, curr_i, curr_c] += 1
+            return True
+        q_table[self.w, curr_i, curr_c] += np.sign(np.max(list(q_table[1:,curr_i+1, curr_c])))
         curr_i +=1
         f_map[curr_i, curr_c] = 1
 
     def select_left(self):
         global curr_c, curr_i
-        print(curr_i, curr_c)
-        print('left')
+        # print(curr_i, curr_c)
+        # print('left')
         if q_table[0,curr_i, curr_c-1] == -1:
             screen.blit(stop,[(curr_c-1)*20, curr_i*20])
             q_table[self.w, curr_i, curr_c] += -2
             return True           # 게임 루프 종료 
-        q_table[self.w, curr_i, curr_c] += 0
+        if q_table[0,curr_i, curr_c-1] == 1:
+            q_table[self.w, curr_i, curr_c] += 1
+            return True
+        q_table[self.w, curr_i, curr_c] += np.sign(np.max(list(q_table[1:,curr_i, curr_c-1])))
         curr_c -=1
         f_map[curr_i, curr_c] = 1
 
     def select_top(self):
         global curr_i, curr_c
-        print(curr_i, curr_c)
-        print('top')
+        # print(curr_i, curr_c)
+        # print('top')
         if q_table[0,curr_i-1, curr_c] == -1:
             screen.blit(stop,[curr_c*20, (curr_i-1)*20])
             q_table[self.w, curr_i, curr_c] += -2
             return True           # 게임 루프 종료 
-        q_table[self.w, curr_i, curr_c] += 0 #direction_max(curr_i+1, curr_c)
+        if q_table[0,curr_i-1, curr_c] == 1:
+            q_table[self.w, curr_i, curr_c] += 1
+            return True
+        q_table[self.w, curr_i, curr_c] += np.sign(np.max(list(q_table[1:,curr_i-1, curr_c])))
         curr_i -= 1
         f_map[curr_i, curr_c] = 1
 
@@ -200,7 +243,7 @@ def direction_max(x, y, from_= 0):   #return direction index
     if curr_qt.count(max_v) == 1: #action을 할 방향(index+1) 찾기(max(qtable))
         idx = curr_qt.index(max_v)
         previous_direction = idx+1
-        print(idx)
+        # print(idx)
     else:
         # if max_v ==-999:   #사방이 모두 가중치가 -999인 경우 그만두기 
         #     np.save('abc.qtb', q_table)  #q_table 저장
@@ -208,15 +251,15 @@ def direction_max(x, y, from_= 0):   #return direction index
         index_max_vals = [i for i, val in enumerate(curr_qt) if val == max_v] #max 값이 2개 이상일 때
         idx = random.sample(index_max_vals, 1)[0]
         previous_direction = idx+1
-        print(idx)
+        # print(idx)
     return idx+1 #1을 더해서 실제 q_table 상의 index를 맞춤.
 
-def q_learning():
+def q_learning(train_num):
     init_q_table()
     global curr_i, curr_c
     curr_i = start_i
     curr_c = start_c
-    # input("%d 번째 훈련"% i)
+    print("%d 번째 훈련"% train_num)
     while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -232,11 +275,11 @@ def q_learning():
         if selector.selector(direction_max(curr_i, curr_c, previous_direction)):  #q_table update
             print("end")
             break
-        print('pd', previous_direction, end='\n\n')
+        # print('pd', previous_direction, end='\n\n')
         screen.blit(player, [curr_c*20, curr_i*20] )      #screen update
         # print(curr_c, curr_i)
         # print(q_table[0, :, :])
-        pygame.time.delay(10)
+        pygame.time.delay(1 )
 
         pygame.display.flip()
         pygame.display.update()
@@ -251,7 +294,7 @@ def q_learning():
 
 if __name__ == "__main__":
     for i in range(0, 1000):
-        q_learning()
+        q_learning(i)
                 
 
         
